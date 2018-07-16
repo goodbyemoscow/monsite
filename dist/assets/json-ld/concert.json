@@ -1,0 +1,115 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "ItemList"
+  ],
+  "name": "Prochain concert de GoodBye Moscow",
+  "itemListOrder": "http://schema.org/ItemListOrderAscending",
+  "numberOfItems": 2,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "MusicEvent",
+        "description": "Les Francofolies de Spa - Du 19 au 22 juillet 2018 - Goodbye Moscow",
+        "location": {
+          "@type": "MusicVenue",
+          "name": "Parc des Sept Heures",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rue du Fourneau 7",
+            "addressLocality": "Spa",
+            "postalCode": "4900",
+            "addressCountry": "BE"
+          }
+        },
+        "image": [
+        "http://www.goodbyemoscow.com/assets/img/goodbye-moscow-social-banner.jpg"
+       ],
+        "url": "https://www.francofolies.be/artistes-infos/goodbye-moscow/",
+        "name": "Francofolies de Spa",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://tickets.brussels-expo.be/uk/bsf/tickets",
+          "price": "35.00",
+          "priceCurrency": "EUR",
+          "availability": "http://schema.org/InStock",
+          "validFrom": "2018-07-21T15:00"
+        },
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "GoodBye Moscow",
+            "sameAs": [
+              "https://www.facebook.com/goodbyemoscow/",
+              "http://www.instagram.com/goodbye_moscow",
+              "https://www.youtube.com/channel/UCgSbs_uf6HnE5WUYklhrNrw",
+              "https://open.spotify.com/artist/6y7BPqaCjeMtRsmoCWwmTs"
+            ]
+          },
+          {
+            "@type": "Person",
+            "image": "/examples/jvanzweden_s.jpg",
+            "name": "Benjamin Hutter",
+            "sameAs": "http://www.goodbyemoscow.com/benjamin_hutter.html"
+          }
+        ],
+        "startDate": "2018-07-21T15:00",
+        "endDate": "2018-07-21T16:00"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "MusicEvent",
+        "description": "The 17th edition of the Brussels Summer Festival will take place from August 14th till the 18th.",
+        "location": {
+          "@type": "MusicVenue",
+          "name": "Brussels Summer Festival",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rue du Fourneau 7",
+            "addressLocality": "Spa",
+            "postalCode": "4900",
+            "addressCountry": "BE"
+          }
+        },
+        "image": [
+        "http://www.goodbyemoscow.com/assets/img/goodbye-moscow-social-banner.jpg"
+       ],
+        "url": "http://www.bsf.be/artiste/goodbye-moscow/",
+        "name": "Francofolies de Spa",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://tickets.brussels-expo.be/uk/bsf/tickets",
+          "price": "35.00",
+          "priceCurrency": "EUR",
+          "availability": "http://schema.org/InStock",
+          "validFrom": "2018-08-14T8:00"
+        },
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "GoodBye Moscow",
+            "sameAs": [
+              "https://www.facebook.com/goodbyemoscow/",
+              "http://www.instagram.com/goodbye_moscow",
+              "https://www.youtube.com/channel/UCgSbs_uf6HnE5WUYklhrNrw",
+              "https://open.spotify.com/artist/6y7BPqaCjeMtRsmoCWwmTs"
+            ]
+          },
+          {
+            "@type": "Person",
+            "image": "/examples/jvanzweden_s.jpg",
+            "name": "Benjamin Hutter",
+            "sameAs": "http://www.goodbyemoscow.com/benjamin_hutter.html"
+          }
+        ],
+        "startDate": "2018-08-18T18:00",
+        "endDate": "2018-08-18T19:00"
+      }
+    }
+  ]
+}
