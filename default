@@ -1,0 +1,30 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang=fr>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodbye Moscow</title>
+  <meta name="description" content="Benjamin Hutter, alias Goodbye Moscow, rêve une pop en français sensuelle, dansante et résolument positive.">
+  <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+  <meta property="og:title" content="GoodBye Moscow - Pop rêveuse">
+  <meta property="og:site_name" content="GoodBye Moscow">
+  <meta property="og:url" content="https://www.goodbyemoscow.com">
+  <meta property="og:description" content="Le Bruxellois Benjamin Hutter, alias Goodbye Moscow, rêve la pop en français entre un point de départ (la Russie) et une ligne d’arrivée (la Belgique). Ses chansons transpirent l’énergie positive.">
+  <meta property="og:type" content="music.musician">
+  <meta property="og:image" content="{{root}}/assets/img/goodbye-moscow-social-banner.jpg">
+  <script src="{{root}}/assets/json-ld/concert.json" type="application/ld+json"></script>
+</head>
+<body>
+
+  {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}} {{> body}}
+
+  <script src="{{root}}assets/js/app.js"></script>
+</body>
+
+</html>
